@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "nodemon index.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rehy0/SCS-backend.git"
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Rehy0/SCS-backend#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
