@@ -190,6 +190,7 @@ PublishScripts/
 *.nupkg
 # NuGet Symbol Packages
 package.json
+.env
 package-lock.json
 *.snupkg
 # The packages folder can be ignored because of Package Restore

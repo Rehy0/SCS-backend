@@ -18,11 +18,13 @@
   },
   "homepage": "https://github.com/Rehy0/SCS-backend#readme",
   "dependencies": {
-    "cookie-parser": "^1.4.7",
-    "express": "^5.1.0"
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",  
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"   
   },
   "devDependencies": {
-    "nodemon": "^3.1.11",
-    "prettier": "^3.6.2"
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5" 
   }
 }

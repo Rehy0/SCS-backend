@@ -1,9 +1,6 @@
 const express = require('express')
 const path = require('path')
 const app = express()
-const dotenv = require("dotenv")
-
-dotenv.config({path:"./.env"})
 
 console.log(path.join(__dirname,"public"))
 
@@ -25,5 +22,5 @@ app.get("/profile/:username/:age",function(req,res){
 
 
 app.listen(3000,function(){
-  console.log("its running!! on port",process.env.PORT)
+  console.log("its running!!")
 })
