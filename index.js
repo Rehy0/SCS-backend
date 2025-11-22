@@ -38,6 +38,10 @@ fs.rename(`./files/${req.body.previous}`,`./files/${req.body.new}`,function(err)
 })
 })
 
+app.post("/redirect",function(req,res){
+  
+})
+
 app.listen(3000,function(){
   console.log("App is running on port 3000")
 })
